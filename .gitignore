@@ -1,0 +1,34 @@
+zkout/
+
+# Ignore environment variable files
+.env
+.env.example
+.env.local
+.env.*.local
+
+# Ignore cache and debug files
+cache/
+debug_tx.json
+
+# Ignore build artifacts
+*.sol.json
+out/
+
+# Ignore dependency directories
+lib/
+node_modules/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Foundry files
+foundry.toml
+
+# Ignore gas snapshot
+.gas-snapshot
+
+# Ignore other common files
+*.log
+*.tmp
+*.swp
